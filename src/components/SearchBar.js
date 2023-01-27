@@ -1,4 +1,4 @@
-function SearchBar()
+function SearchBar({onSubmit})
 {
   return(
     <div>
