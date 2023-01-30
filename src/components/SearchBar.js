@@ -1,11 +1,15 @@
-function SearchBar()
+function SearchBar({onSubmit})
 {
 
   const handleFormSubmit = (event) => 
   {
     event.preventDefault();
-    onSubmit("cars")
-  }
+
+
+    onSubmit(
+      document.querySelector("input").value
+    );
+  };
 
 
   return(
