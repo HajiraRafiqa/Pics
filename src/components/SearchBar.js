@@ -1,16 +1,17 @@
 function SearchBar({onSubmit})
 {
 
-  const handleClick = () => 
+  const handleFormSubmit = () => 
   {
-    onSubmit("cars");
+     console.log("")
   }
 
 
   return(
     <div>
-      <input/>
-      <button onClick={handleClick}>Click me!</button>
+      <form>
+        <input/>
+      </form>
     </div>
   )
 }
