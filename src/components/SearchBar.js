@@ -1,15 +1,15 @@
-function SearchBar({onSubmit})
+function SearchBar()
 {
 
   const handleFormSubmit = () => 
   {
-     console.log("")
+     console.log(" i need to tell parents abt some data");
   }
 
 
   return(
     <div>
-      <form>
+      <form onSubmit={handleFormSubmit}>
         <input/>
       </form>
     </div>
