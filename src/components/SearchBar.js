@@ -1,9 +1,10 @@
 function SearchBar()
 {
 
-  const handleFormSubmit = () => 
+  const handleFormSubmit = (event) => 
   {
-     console.log(" i need to tell parents abt some data");
+    event.preventDefault();
+    onSubmit("cars")
   }
 
 
