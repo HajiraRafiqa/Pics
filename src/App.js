@@ -7,7 +7,9 @@ function App()
 
   const handleSubmit = (term) =>
   {
-    searchImages(term);
+    const result = searchImages(term);
+
+    console.log(result);
   };
 
   return(
