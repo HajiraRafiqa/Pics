@@ -16,6 +16,8 @@ function SearchBar({onSubmit})
 
       //NEVER EVER DO THIS 
       //document.querySelector("input").value
+
+      term
     );
   };
 
