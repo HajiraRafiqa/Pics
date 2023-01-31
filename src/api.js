@@ -1,5 +1,4 @@
 import axios from "axios";
-import searchImages from "api";
 
 const searchImages = async (term) =>
 {
