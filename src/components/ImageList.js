@@ -1,3 +1,6 @@
+import ImageShow from "./ImageShow";
+
+
 function ImageList({images})
 {
   return(
