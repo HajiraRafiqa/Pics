@@ -6,14 +6,14 @@ function ImageList({images})
   const readeredImages = images.map((image) => 
   {
     return(
-      <ImageShow /> 
+      <ImageShow image = {image} />
     )
   });
 
 
   return(
     <div>
-      ImageList: {images.length}
+      {readeredImages}
     </div>
   )
 }
