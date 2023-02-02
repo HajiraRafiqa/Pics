@@ -1,4 +1,4 @@
-function ImageShow({image})
+function ImageShow({ image })
 {
   return(
     <div>
