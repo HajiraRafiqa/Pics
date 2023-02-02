@@ -1,21 +1,20 @@
 import ImageShow from "./ImageShow";
 
 
-function ImageList({images})
+function ImageList({ images })
 {
-  const readeredImages = images.map((image) => 
-  {
-    return(
-      <ImageShow image = {image} />
-    )
-  });
+  //const renderedImages = images.map((image) => 
+  //{
+    //return <ImageShow image = {image} />;
+    
+  //});
 
 
   return(
     <div>
-      {readeredImages}
+     ImageList: {images.length}
     </div>
-  )
+  );
 }
 
 export default ImageList;
