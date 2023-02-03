@@ -2,7 +2,7 @@ function ImageShow({ image })
 {
   return(
     <div>
-      {image.id}
+      {image.alt_description}
     </div>
   )
 }
