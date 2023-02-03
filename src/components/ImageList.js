@@ -12,7 +12,7 @@ function ImageList({ images })
 
   return(
     <div>
-     ImageList: {images.length}
+     {renderedImages}
     </div>
   );
 }
