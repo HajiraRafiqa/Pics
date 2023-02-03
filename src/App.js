@@ -8,7 +8,7 @@ import ImageList from "./components/ImageList";
 function App()
 {
 
-  const [images, setImages] =  useState([]);
+  const [image, setImages] =  useState([]);
 
 
   const handleSubmit = async (term) =>
@@ -21,7 +21,7 @@ function App()
   return(
     <div>
       <SearchBar onSubmit = {handleSubmit} />
-      <ImageList images = {images}/>
+      <ImageList images = {image}/>
     </div>
   )
 }
