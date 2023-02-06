@@ -12,25 +12,25 @@ function SearchBar({onSubmit})
     event.preventDefault();
 
 
-    onSubmit(
+    onSubmit(term
 
       //NEVER EVER DO THIS 
       //document.querySelector("input").value
 
-      term
+      
     );
   };
 
   const handleChange = (event) => 
   {
-    console.log(event.target.value);
+    setTerm(event.target.value);
   };
 
 
   return(
     <div>
       <form onSubmit={handleFormSubmit}>
-        <input onChange={handleChange}/>
+        <input value={term} onChange={handleChange}/>
       </form>
     </div>
   )
